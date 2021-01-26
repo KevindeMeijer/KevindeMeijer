@@ -1,0 +1,96 @@
+.socials {
+  position: relative;
+}
+
+.socials .social-icon {
+  width: 70px;
+  height: 70px;
+  background: #eee;
+  border: 2px solid var(--black);
+  float: left;
+  margin-right: 35px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.socials .social-icon .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.socials .social-icon .icon i.fa {
+  font-size: 30px;
+  transition: all 250ms ease-in-out 100ms;
+}
+
+.socials .social-icon .icon:after {
+  width: 70px;
+  height: 70px;
+  content: '';
+  display: block;
+  margin-top: -10px;
+  transition: all 250ms ease-in-out;
+}
+
+.socials .social-icon:hover .icon:after {
+  margin-top: -80px;
+}
+
+.socials .social-icon:hover .icon i.fa {
+  color: var(--white);
+}
+
+.socials .social-icon.snapchat:hover .icon i.fa {
+  color: var(--black);
+}
+
+.socials .social-icon.github .icon:after {
+  background: #333;
+}
+
+.socials .social-icon.linkedin .icon:after {
+  background: #0077b5;
+}
+
+.socials .social-icon.instagram .icon:after {
+  background: #3f729b;
+}
+
+.socials .social-icon.reddit .icon:after {
+  background: #ff4500;
+}
+
+.socials .social-icon.youtube .icon:after {
+  background: #ff0000;
+}
+
+.socials .social-icon.twitch .icon:after {
+  background: #9146ff;
+}
+
+.socials .social-icon.codepen .icon:after {
+  background: #0ebeff;
+}
+
+.socials .social-icon.telegram .icon:after {
+  background: #0088cc;
+}
+
+.socials .social-icon.steam .icon:after {
+  background: #2a475e;
+}
+
+.socials .social-icon.spotify .icon:after {
+  background: #1db954;
+}
+
+.socials .social-icon.soundcloud .icon:after {
+  background: #ff8800;
+}
+
+.socials .social-icon.snapchat .icon:after {
+  background: #fffc00;
+}
