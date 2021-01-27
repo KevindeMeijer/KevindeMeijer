@@ -53,7 +53,7 @@
 
 .timeline ul li .date h4 {
   background-color: var(--lightblue);
-  width: 200px;
+  width: 50%;
   text-align: center;
   padding: 5px 10px;
 }
@@ -84,9 +84,12 @@
 .timeline::before {
   content: '';
   position: absolute;
-  height: 100%;
-  top: -50px;
+  display: block;
+  /* !!! heigth needs to be enough to cover timeline */
+  height: 300%;
+  max-height: inherit;
   width: 6px;
   left: calc(50% - 2px);
   background-image: var(--blue_gradient_straight);
+  overflow: hidden;
 }

@@ -14,6 +14,7 @@
   --white: #fff;
 
   --red_gradient: linear-gradient(70deg, #ff8b85 0%, #dd0100 100%);
+  --red_gradient_flip: linear-gradient(-90deg, #ff8b85 0%, #dd0100 100%);
   --blue_gradient: linear-gradient(70deg, #6ec7ed 0%, #225095 100%);
   --blue_gradient_straight: linear-gradient(0deg, #6ec7ed 0%, #225095 100%);
   --yellow_gradient: linear-gradient(70deg, #ffd670 0%, #fac901 100%);
@@ -38,6 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100%;
 }
 
 h1 {
@@ -60,6 +62,14 @@ p {
   margin-bottom: 1.6em;
 }
 
+li {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
 section {
   display: inline-block;
   height: 100vh;
@@ -70,7 +80,7 @@ section {
 .layout {
   display: grid;
   width: 100%;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 100%;
 }
 
@@ -174,13 +184,92 @@ section {
   font-weight: 700;
 }
 
-@media only screen and (max-width: 800px) {
-  .layout {
-    display: grid;
+.skills {
+  width: 100%;
+  /* margin: ; */
+  color: var(--white);
+}
+
+.skills li {
+  margin: 20px 0;
+}
+
+.bar {
+  background: var(--white);
+  display: block;
+  height: 24px;
+  border: 1px solid var(--black);
+  overflow: hidden;
+  /* box-shadow: 0 0 10px #2187e7b3; */
+}
+
+.bar span {
+  height: 24px;
+  float: left;
+  background: var(--red_gradient_flip);
+}
+
+.html {
+  width: 93%;
+  animation: 1.5s ease-in-out bar;
+}
+
+.css {
+  width: 98%;
+  animation: 1.5s ease-in-out bar;
+}
+
+.js {
+  width: 35%;
+  animation: 1.5s ease-in-out bar;
+}
+
+.react {
+  width: 50%;
+  animation: 1.5s ease-in-out bar;
+}
+
+.python {
+  width: 25%;
+  animation: 1.5s ease-in-out bar;
+}
+
+.move {
+  margin-left: 12px;
+  font-size: 14px;
+  font-family: var(--title);
+}
+
+@keyframes bar {
+  0% {
+    width: 0;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .layout.work {
     width: 100%;
-    height: 150%;
+    height: 125%;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 4fr;
+  }
+
+  .timeline::before {
+    height: 110%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  html {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .layout {
+    width: 100%;
+    height: 200%;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
   }
 
   .perspective-text {
