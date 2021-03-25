@@ -7,6 +7,9 @@
 
   --coding: #00ff00;
   --lightblue: #7aa3e1;
+  --devdroplets: #5D64EE;
+  --devdropletsseconday: #F63A63;
+  --devdropletsdark: #0F0C29;
 
   --black: #292929;
   --text: #000;
@@ -24,6 +27,8 @@
     #1eaafc 85%,
     #3edfd7 100%
   );
+  --light_gradient: linear-gradient(75deg, #eee 0%, #fff 100%);
+  --dark_gradient: linear-gradient(300deg, #5D64EE 0%, #0F0C29 100%);
 }
 
 * {
