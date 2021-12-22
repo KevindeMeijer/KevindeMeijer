@@ -1,78 +1,55 @@
-<div class="skills">
-  <ul>
-    <li><h3><span class="bar"><span class="html"><p class="move">HTML</p></span></span></h3></li>        
-    <li><h3><span class="bar"><span class="css"><p class="move">(S)CSS</p></span></span></h3></li>        
-    <li><h3><span class="bar"><span class="js"><p class="move">JS</p></span></span></h3></li>        
-    <li><h3><span class="bar"><span class="react"><p class="move">ReactJS</p></span></span></h3></li>        
-    <li><h3><span class="bar"><span class="svelte"><p class="move">Svelte</p></span></span></h3></li>        
-    <li><h3><span class="bar"><span class="vue"><p class="move">Vue</p></span></span></h3></li>             
-  </ul>
+<script>
+  // https://svelte.dev/docs#tweened
+  import { tweened } from 'svelte/motion';
+
+  // https://svelte.dev/docs#svelte_easing
+  import { cubicInOut } from 'svelte/easing';
+
+  export let skill;
+  export let percent;
+  export let color;
+  export let delTime;
+
+  const progress = tweened(15, {
+    delay: delTime,
+    duration: 1500,
+    easing: cubicInOut,
+  });
+
+  // Changes the initial value of 30 to percent value in skillLevels array
+  progress.set(percent);
+</script>
+
+<div class="container">
+  <span class="skill">{skill}</span>
+  <div class="skills" style="width: {$progress}%; background-image: {color}">
+    {percent}%
+  </div>
 </div>
 
 <style>
-.skills {
-  width: 100%;
-  color: var(--white);
-}
-
-.skills li {
-  margin: 20px 0;
-}
-.move {
-  margin-left: 12px;
-  font-size: 14px;
-  font-family: var(--title);
-}
-
-.bar {
-  background: var(--white);
-  display: block;
-  height: 24px;
-  border: 1px solid var(--black);
-  overflow: hidden;
-}
-
-.bar span {
-  height: 24px;
-  float: left;
-  background: var(--blue_gradient_flip);
-}
-
-.html {
-  width: 99%;
-  animation: 1.50s ease-in-out bar;
-}
-
-.css {
-  width: 98%;
-  animation: 1.5s ease-in-out bar;
-}
-
-.js {
-  width: 80%;
-  animation: 1.5s ease-in-out bar;
-}
-
-.react {
-  width: 60%;
-  animation: 1.5s ease-in-out bar;
-}
-
-.svelte {
-  width: 50%;
-  animation: 1.5s ease-in-out bar;
-}
-
-.vue {
-  width: 50%;
-  animation: 1.5s ease-in-out bar;
-}
-
-@keyframes bar {
-  0% {
-    width: 0%;
+  .container {
+    width: 100%;
+    background-color: var(--tinted);
+    margin-bottom: 15px;
+    position: relative;
   }
-}
 
+  span {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    top: 10px;
+    left: 10px;
+    color: var(--white);
+  }
+
+  .skills {
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    padding: 10px 0;
+    right: 10px;
+    font-weight: 500;
+    color: white;
+    transition: 0.5s ease-out;
+  }
 </style>
-
