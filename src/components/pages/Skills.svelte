@@ -1,7 +1,7 @@
 <script>
-  import Nav from "./Nav.svelte";
-  import Section from "./Section.svelte";
-  import Skillbars from "./Skillbars.svelte";
+  import Nav from "../global/Nav.svelte";
+  import Section from "../global/Section.svelte";
+  import Skillbars from "../content/Skillbars.svelte";
 </script>
 
 <Section id="skills" class="skills">

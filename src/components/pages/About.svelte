@@ -1,6 +1,6 @@
 <script>
-  import Nav from "./Nav.svelte";
-  import Section from "./Section.svelte";
+  import Nav from "../global/Nav.svelte";
+  import Section from "../global/Section.svelte";
 
   const Mondriaan = "https://en.wikipedia.org/wiki/Piet_Mondrian"
 </script>
@@ -8,7 +8,7 @@
 <Section id="about" class="about">
 <Nav title="About"/>
   <div class="text">
-    <p class="bold">I am a Front-end Developer and UX Designer from The Netherlands living
+    <p class="bold">I am a passionate Front-end Developer and UX Designer from The Netherlands living
       near Amsterdam.</p>
     <p>I love designing logo's, creating artwork, digital design, Photoshop and I am currently
       studying at Hogeschool Utrecht.</p> 

@@ -3,9 +3,9 @@
 </svelte:head>
 
 <script>
-  import Nav from "./Nav.svelte";
-  import Section from "./Section.svelte";
-  import SocialIcons from "./SocialIcons.svelte";
+  import Nav from "../global/Nav.svelte";
+  import Section from "../global/Section.svelte";
+  import SocialIcons from "../content/SocialIcons.svelte";
 </script>
 
 <Section id="contact" class="contact">
