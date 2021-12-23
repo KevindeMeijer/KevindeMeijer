@@ -23,7 +23,7 @@
 <div class="container">
   <span class="skill">{skill}</span>
   <div class="skills" style="width: {$progress}%; background-image: {color}">
-    {percent}%
+    &nbsp;
   </div>
 </div>
 
