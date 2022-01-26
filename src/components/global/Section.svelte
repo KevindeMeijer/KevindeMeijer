@@ -22,7 +22,11 @@ section {
   background: var(--blue);
 }
 
-.contact {
+.work {
   background: var(--yellow);
+}
+
+.contact {
+  background: var(--green);
 }
 </style>
