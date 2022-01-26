@@ -16,8 +16,7 @@
     <h2>Art Style</h2>
     <p>My inspiration comes from various sources. I try to incorporate accessibility into my
       designs, and and am all about making them futureproof.</p>
-    <p>During my career I have found myself struggling with designs and was destined to give
-      them more time and focus. I started using Figma & AdobeXD to make perI love pastels and
+    <p>............I love pastels and
       also the colors <a class="bold" href={Mondriaan} target="_blank">Piet Mondriaan</a>
       used in his paintings</p>
   </div>
