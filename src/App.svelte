@@ -1,4 +1,5 @@
 <script>
+  import Home from './components/pages/Home.svelte';
   import About from './components/pages/About.svelte';
   import Skills from './components/pages/Skills.svelte';
   import Work from './components/pages/Work.svelte';
@@ -6,6 +7,7 @@
 </script>
 
 <div class="container">
+  <Home />
   <About />
   <Skills />
   <Work />

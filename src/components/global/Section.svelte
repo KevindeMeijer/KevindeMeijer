@@ -14,6 +14,14 @@
     scroll-snap-align: start;
   }
 
+  .home {
+    background: var(--black);
+    color: var(--white);
+
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+  }
+
   .about {
     background: var(--red);
   }
