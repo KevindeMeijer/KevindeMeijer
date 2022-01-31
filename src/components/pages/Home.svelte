@@ -41,7 +41,7 @@
     width: auto;
     margin: auto;
     position: relative;
-    right: 9%;
+    right: 3%;
   }
 
   .perspective-line {
@@ -95,5 +95,17 @@
 
   .perspective-line:nth-child(5) {
     left: 145px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .perspective-text {
+      right: 9%;
+    }
+  }
+
+  @media only screen and (max-width: 1500px) {
+    .perspective-text {
+      right: 5%;
+    }
   }
 </style>

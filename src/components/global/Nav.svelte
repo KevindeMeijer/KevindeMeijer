@@ -15,5 +15,8 @@
     display: grid;
     place-items: center;
     text-align: center;
+
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
   }
 </style>

@@ -73,7 +73,31 @@
       fa_icon="fa fa-youtube-play"
     />
   </div>
+  <div class="map">
+    <iframe
+      allowfullscreen
+      title="Hot singles in my area"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+      src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=nl&amp;q=Naarden+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      width="100%"
+      height="100%"
+      frameborder="0"
+      style="border: 0;"
+    />
+  </div>
 </Section>
 
 <style>
+  .text {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+
+  .map {
+    background-color: var(--background);
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
 </style>
