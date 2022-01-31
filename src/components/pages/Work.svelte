@@ -6,7 +6,8 @@
 <Section id="work" class="work">
   <Nav title="Work" />
   <div class="text">
-    <h1>AAAAAAAA</h1>
+    <h1>Timeline</h1>
+    <p>Work in progress...</p>
   </div>
 </Section>
 

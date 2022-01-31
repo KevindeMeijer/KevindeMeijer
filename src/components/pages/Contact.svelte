@@ -25,6 +25,9 @@
       I'm currently unavailible for any projects that fall outside of my study.
     </p>
 
+    <h2>Visit one of my socials for more about me...</h2>
+    <br />
+
     <SocialIcon
       link="https://github.com/KevindeMeijer"
       color="social-icon github"
