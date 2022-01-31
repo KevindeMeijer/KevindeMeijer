@@ -2,7 +2,6 @@
   <nav class="brackets">
     <a href="#home">Home</a>
     <a href="#about">About</a>
-    <a href="#skills">Skills</a>
     <a href="#work">Work</a>
     <a href="#contact">Contact</a>
   </nav>

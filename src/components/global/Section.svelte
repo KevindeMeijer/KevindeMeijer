@@ -26,15 +26,15 @@
     background: var(--red);
   }
 
-  .skills {
+  .work {
     background: var(--blue);
   }
 
-  .work {
+  .contact {
     background: var(--yellow);
   }
 
-  .contact {
+  .map {
     background: var(--green);
   }
 </style>

@@ -1,7 +1,6 @@
 <script>
   import Home from './components/pages/Home.svelte';
   import About from './components/pages/About.svelte';
-  import Skills from './components/pages/Skills.svelte';
   import Work from './components/pages/Work.svelte';
   import Contact from './components/pages/Contact.svelte';
 </script>
@@ -9,7 +8,6 @@
 <div class="container">
   <Home />
   <About />
-  <Skills />
   <Work />
   <Contact />
 </div>
