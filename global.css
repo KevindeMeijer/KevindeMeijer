@@ -29,6 +29,12 @@
   );
   --light_gradient: linear-gradient(75deg, #eee 0%, #fff 100%);
   --dark_gradient: linear-gradient(300deg, #5D64EE 0%, #0F0C29 100%);
+
+  --linkColor1: #2872fa;
+  --transition: all 0.12s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --has-link-decoration: var(--true);
+  --true: initial;
+  --text-decoration: none;
 }
 
 * {
@@ -65,6 +71,35 @@ p, li {
 
 .bold {
   font-weight: 700;
+}
+
+.link {
+  background-image: var(--has-link-decoration,linear-gradient(currentColor,currentColor));
+  background-position: var(--has-link-decoration,0% 100%);
+  background-repeat: var(--has-link-decoration,no-repeat);
+  background-size: var(--has-link-decoration,100% 1px);
+
+  color: var(--blue);
+  font-weight: 700;
+
+  text-decoration: var(--textDecoration,none);
+  transition: var(--transition);
+}
+
+.link:hover {
+  background-image: var(--has-link-decoration, linear-gradient(var(--linkColor1), var(--linkColor1)));
+  background-position: var(--has-link-decoration,0% 100%);
+  background-repeat: var(--has-link-decoration,no-repeat);
+  background-size: var(--has-link-decoration, 100% 100%);
+
+  color: var(--has-link-decoration, #fff);
+
+  transition: var(--transition);
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
 }
 
 ul {
