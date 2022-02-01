@@ -16,7 +16,7 @@
     </p>
     <p>
       My areas of expertise encompass all Front-end work you can dream of: from
-      creating a sketch, working it out digitally, devoloping the first
+      creating a sketch, working it out digitally, developing the first
       prototype, to the last bits of css that are causing a headache.
     </p>
 
