@@ -16,7 +16,7 @@
     </p>
     <p>
       My areas of expertise encompass all Front-end work you can dream of: from
-      creating a sketch, working it out digitally, devoloping the first
+      creating a sketch, working it out digitally, developing the first
       prototype, to the last bits of css that are causing a headache.
     </p>
 
@@ -25,6 +25,18 @@
       <a class="link" href={HU} target="_blank">Hogeschool Utrecht</a> based in the
       Netherlands.
     </p>
+
+    <h2>Let's get to know eachother.</h2>
+    <p>
+      In my free time i like to play video games. I like stealth-games, and love
+      using peripherals to play games with a steering wheel or in VR. Some of my
+      favourites are
+    </p>
+    <ul>
+      <li>The HITMAN Trilogy</li>
+      <li>Beat Saber</li>
+      <li>The Half-life series</li>
+    </ul>
 
     <h2>Art Style</h2>
     <p>
