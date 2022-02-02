@@ -28,7 +28,6 @@
   <div class="nav">
     <NavItems />
   </div>
-  >
 </Section>
 
 <style>
