@@ -26,6 +26,18 @@
       Netherlands.
     </p>
 
+    <h2>Let's get to know eachother.</h2>
+    <p>
+      In my free time i like to play video games. I like stealth-games, and love
+      using peripherals to play games with a steering wheel or in VR. Some of my
+      favourites are
+    </p>
+    <ul>
+      <li>The HITMAN Trilogy</li>
+      <li>Beat Saber</li>
+      <li>The Half-life series</li>
+    </ul>
+
     <h2>Art Style</h2>
     <p>
       I love pastels and also the colors
