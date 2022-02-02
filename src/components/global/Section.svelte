@@ -1,32 +1,40 @@
 <script>
-
 </script>
 
 <section id={$$props.id} class={$$props.class}>
-  <slot></slot>
+  <slot />
 </section>
 
 <style>
-section {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100%;
-}
+  section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    scroll-snap-align: start;
+  }
 
-.about {
-  background: var(--red);
-}
+  .home {
+    background: var(--black);
+    color: var(--white);
 
-.skills {
-  background: var(--blue);
-}
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+  }
 
-.work {
-  background: var(--yellow);
-}
+  .about {
+    background: var(--red);
+  }
 
-.contact {
-  background: var(--green);
-}
+  .work {
+    background: var(--blue);
+  }
+
+  .contact {
+    background: var(--yellow);
+  }
+
+  .map {
+    background: var(--green);
+  }
 </style>

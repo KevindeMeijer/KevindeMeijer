@@ -8,6 +8,7 @@
 
   --coding: #00ff00;
   --lightblue: #7aa3e1;
+  --linkColor1: #2872fa;
 
   --black: #292929;
   --text: #000;
@@ -29,6 +30,12 @@
   );
   --light_gradient: linear-gradient(75deg, #eee 0%, #fff 100%);
   --dark_gradient: linear-gradient(300deg, #5D64EE 0%, #0F0C29 100%);
+
+  --transition: all 0.22s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --title-transition: all 0.45s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --has-link-decoration: var(--true);
+  --true: initial;
+  --text-decoration: none;
 }
 
 * {
@@ -72,6 +79,35 @@ p {
   font-weight: 700;
 }
 
+.link {
+  background-image: var(--has-link-decoration,linear-gradient(currentColor,currentColor));
+  background-position: var(--has-link-decoration,0% 100%);
+  background-repeat: var(--has-link-decoration,no-repeat);
+  background-size: var(--has-link-decoration,100% 1px);
+
+  color: var(--blue);
+  font-weight: 700;
+
+  text-decoration: var(--textDecoration,none);
+  transition: var(--transition);
+}
+
+.link:hover {
+  background-image: var(--has-link-decoration, linear-gradient(var(--linkColor1), var(--linkColor1)));
+  background-position: var(--has-link-decoration,0% 100%);
+  background-repeat: var(--has-link-decoration,no-repeat);
+  background-size: var(--has-link-decoration, 100% 100%);
+
+  color: var(--has-link-decoration, #fff);
+
+  transition: var(--transition);
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
 ul {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -83,13 +119,6 @@ section {
   height: 100vh;
   width: 100%;
   box-sizing: border-box;
-}
-
-.layout {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100%;
 }
 
 .text {
