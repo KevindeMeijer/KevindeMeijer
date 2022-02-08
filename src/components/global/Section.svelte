@@ -10,7 +10,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100%;
+    grid-template-rows: 1fr 1fr;
     scroll-snap-align: start;
   }
 
@@ -38,5 +38,10 @@
 
   .map {
     background: var(--green);
+  }
+
+  .text {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
   }
 </style>
