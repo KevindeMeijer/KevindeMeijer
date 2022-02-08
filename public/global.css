@@ -59,15 +59,11 @@ h1 {
 
 h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
-  padding: 24px 0;
 }
 
-h2 {
-  font-size: 1.25em;
-}
-
-p {
-  padding: 1em 0;
+p, li {
+  font-family: 'Lato', sans-serif;;
+  margin-bottom: 1.6em;
   font-size: 18px;
   font-weight: 300;
 }
@@ -106,9 +102,7 @@ a {
 }
 
 ul {
-  font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
+  list-style: none;
 }
 
 section {

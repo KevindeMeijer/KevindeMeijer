@@ -14,8 +14,6 @@
       Feel free to get in Touch if you want to collaborate on something cool or
       interesting. I'm always open to learn, and up for a challenge.
     </p>
-
-    <h2>Visit one of my socials for more about me...</h2>
     <br />
 
     <SocialIconArray />
