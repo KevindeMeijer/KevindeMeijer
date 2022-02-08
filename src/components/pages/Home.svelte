@@ -38,7 +38,7 @@
 
   .perspective-text {
     width: auto;
-    margin: auto;
+    margin: 150px auto auto auto;
     position: relative;
     right: 3%;
   }
