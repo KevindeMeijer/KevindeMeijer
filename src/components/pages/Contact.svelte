@@ -12,10 +12,7 @@
     <p>UX / UI Design <br />Front-end Development</p>
     <p class="bold">
       Feel free to get in Touch if you want to collaborate on something cool or
-      interesting. I'm always open to learn and up for a challenge.
-    </p>
-    <p>
-      I'm currently unavailible for any projects that fall outside of my study.
+      interesting. I'm always open to learn, and up for a challenge.
     </p>
 
     <h2>Visit one of my socials for more about me...</h2>
