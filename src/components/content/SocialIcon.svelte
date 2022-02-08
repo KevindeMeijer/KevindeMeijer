@@ -80,7 +80,7 @@
   }
 
   .socials .social-icon.instagram .icon:after {
-    background: #3f729b;
+    background: #c13584;
   }
 
   .socials .social-icon.youtube .icon:after {

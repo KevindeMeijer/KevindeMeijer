@@ -23,14 +23,8 @@
   />
 
   <SocialIcon
-    link="https://www.instagram.com/kevkevdemeijer/"
-    color="social-icon instagram"
-    fa_icon="fa fa-instagram"
-  />
-
-  <SocialIcon
     link="https://www.linkedin.com/in/kevindemeijer/"
-    color="social-icon instagram"
+    color="social-icon linkedin"
     fa_icon="fa fa-linkedin-square"
   />
 
@@ -44,6 +38,12 @@
     link="https://t.me/KevindeMeijer"
     color="social-icon telegram"
     fa_icon="fa fa-telegram"
+  />
+
+  <SocialIcon
+    link="https://www.instagram.com/kevkevdemeijer/"
+    color="social-icon instagram"
+    fa_icon="fa fa-instagram"
   />
 
   <SocialIcon
