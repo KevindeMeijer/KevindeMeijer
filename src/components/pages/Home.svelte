@@ -96,15 +96,31 @@
     left: 145px;
   }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 900px) {
     .perspective-text {
-      right: 9%;
+      right: 13%;
+    }
+
+    .perspective {
+      font: 900 38px/46px 'Montserrat', sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+
+      height: 50px;
+      margin: 0;
+      transition: var(--title-transition);
     }
   }
 
-  @media only screen and (max-width: 1500px) {
+  @media only screen and (max-width: 600px) {
     .perspective-text {
-      right: 5%;
+      right: 18%;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .perspective-text {
+      right: 20%;
     }
   }
 </style>

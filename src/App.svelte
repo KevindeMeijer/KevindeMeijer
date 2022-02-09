@@ -18,4 +18,10 @@
     overflow-y: scroll;
     height: 100vh;
   }
+
+  @media only screen and (max-width: 900px) {
+    .container {
+      scroll-snap-type: y proximity;
+    }
+  }
 </style>

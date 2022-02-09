@@ -35,13 +35,26 @@
 
 <style>
   .text {
-    grid-row: 1 / 2;
     grid-column: 2 / 3;
+    grid-row: 1 / 2;
   }
 
   .map {
     background-color: var(--background);
-    grid-row: 2 / 3;
     grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .text {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+
+    .map {
+      background-color: var(--background);
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
   }
 </style>

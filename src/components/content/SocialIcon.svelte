@@ -51,7 +51,7 @@
 
   .socials .social-icon .icon i.fa {
     font-size: 35px;
-    transition: all 250ms ease-in-out 100ms;
+    transition: var(--transition);
   }
 
   .socials .social-icon .icon:after {
@@ -60,7 +60,7 @@
     content: '';
     display: block;
     margin-top: 0px;
-    transition: all 250ms ease-in-out;
+    transition: var(--transition);
   }
 
   .socials .social-icon:hover .icon:after {
