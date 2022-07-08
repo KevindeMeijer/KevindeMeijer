@@ -26,9 +26,8 @@
       Netherlands.
     </p>
 
-    <h3>Art Style</h3>
     <p>
-      I love pastels and also the colors
+      I love pastels and also the colours
       <a class="link" href={Mondriaan} target="_blank">Piet Mondriaan </a>
       used in his paintings.
     </p>
