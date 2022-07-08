@@ -4,13 +4,6 @@
   export let fa_icon;
 </script>
 
-<svelte:head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-</svelte:head>
-
 <div class="socials">
   <a target="_blank" href={link}>
     <div class={color}>
@@ -43,8 +36,6 @@
   }
 
   .socials .social-icon .icon {
-    width: 70px;
-    height: 70px;
     line-height: 80px;
     text-align: center;
   }
@@ -101,5 +92,27 @@
 
   .socials .social-icon.steam .icon:after {
     background: #2a475e;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .socials .social-icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    .socials .social-icon .icon:after {
+      width: 80px;
+      height: 80px;
+      transition: var(--title-transition);
+    }
+
+    .socials .social-icon .icon {
+      line-height: 55px;
+    }
+
+    .socials .social-icon .icon i.fa {
+      font-size: 25px;
+      transition: var(--title-transition);
+    }
   }
 </style>

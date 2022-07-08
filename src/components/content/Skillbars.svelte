@@ -21,7 +21,7 @@
 </script>
 
 <div class="container">
-  <span class="skill">{skill}</span>
+  <span class="skill"><b>{skill}</b></span>
   <div class="skills" style="width: {$progress}%; background-image: {color}">
     &nbsp;
   </div>

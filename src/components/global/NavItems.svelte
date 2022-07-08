@@ -11,7 +11,7 @@
   nav a {
     color: #fff;
     text-decoration: none;
-    font: 700 20px 'Raleway', sans-serif;
+    font: 700 20px 'Lato', sans-serif;
     margin: 0px 10px;
     padding: 10px 10px;
     position: relative;
@@ -48,5 +48,11 @@
   .brackets a:hover:after {
     opacity: 1;
     transform: translateX(0px);
+  }
+
+  @media only screen and (max-width: 900px) {
+    nav a {
+      font-size: 16px;
+    }
   }
 </style>

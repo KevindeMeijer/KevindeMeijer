@@ -50,20 +50,10 @@
       height: 100vh;
     }
 
-    .about {
-      height: 130vh;
-      grid-template-rows: 20vh 10vh 50vh 50vh;
-    }
-
-    .work {
-      /* !!! THIS WILL F*CK ME UP IN THE FUTURE */
-      height: 50vh;
-      grid-template-rows: 20vh 10vh 10vh 10vh;
-    }
-
+    .about,
+    .work,
     .contact {
       height: 130vh;
-      grid-template-columns: 100%;
       grid-template-rows: 20vh 10vh 50vh 50vh;
     }
   }

@@ -26,20 +26,20 @@
       Netherlands.
     </p>
 
-    <h2>Art Style</h2>
+    <h3>Art Style</h3>
     <p>
       I love pastels and also the colors
       <a class="link" href={Mondriaan} target="_blank">Piet Mondriaan </a>
       used in his paintings.
     </p>
 
-    <h2>My Skills</h2>
+    <h3>My Skills</h3>
     <Skills />
   </div>
 </Section>
 
 <style>
-  h2 {
+  h3 {
     padding-bottom: 24px;
   }
 </style>
